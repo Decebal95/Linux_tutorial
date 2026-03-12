@@ -1,0 +1,16 @@
+id,nume,departament,salariu,data_angajare,oras
+1,Ana Popescu,IT,7500,2022-03-15,Bucuresti
+2,Mihai Ionescu,HR,5200,2021-06-01,Cluj
+3,Elena Dumitrescu,Finance,6800,2020-01-20,Timisoara
+4,Andrei Popa,IT,9200,2019-09-10,Bucuresti
+5,Maria Stan,Marketing,4900,2023-01-05,Iasi
+6,Ion Gheorghe,Logistics,4500,2022-11-30,Brasov
+7,Cristina Moldovan,IT,8100,2021-04-22,Cluj
+8,Alexandru Radu,Finance,6200,2020-08-15,Bucuresti
+9,Ioana Marin,HR,5800,2022-07-01,Timisoara
+10,Bogdan Dima,Marketing,5500,2023-03-20,Iasi
+11,Laura Stoica,Logistics,4800,2021-10-10,Brasov
+12,Razvan Nica,IT,7800,2020-12-05,Bucuresti
+13,Simona Lupu,Finance,6500,2022-05-18,Cluj
+14,Vlad Oprea,Marketing,5100,2023-06-25,Timisoara
+15,Gabriela Toma,Logistics,5300,2021-02-14,Iasi

@@ -1,0 +1,40 @@
+2026-02-17T08:01:12 INFO    [auth-service]    Server started on port 8080
+2026-02-17T08:01:45 INFO    [db-service]      Connection pool initialized: 20 connections to localhost:5432
+2026-02-17T08:02:03 DEBUG   [cache-service]   Cache warmed up: 4820 entries loaded in 312ms
+2026-02-17T08:15:30 INFO    [api-gateway]     Request processed: GET /api/users 200 in 42ms
+2026-02-17T08:22:11 INFO    [auth-service]    User login successful: user_id=187 from 192.168.1.10
+2026-02-17T08:35:44 DEBUG   [db-service]      SQL executed in 18ms: SELECT * FROM tranzactii WHERE data > '2026-01-01'
+2026-02-17T08:41:07 WARN    [payment-service] Retry attempt 1/3 for endpoint /api/pay (timeout 5s)
+2026-02-17T08:55:19 INFO    [etl-pipeline]    ETL batch started: 1000 records queued for processing
+2026-02-17T09:03:22 INFO    [api-gateway]     Request processed: POST /api/tranzactii 201 in 89ms
+2026-02-17T09:08:47 ERROR   [db-service]      Database connection failed: timeout after 30s on host db-replica-2
+2026-02-17T09:12:05 WARN    [cache-service]   High memory usage detected: 78% (threshold: 75%)
+2026-02-17T09:18:31 INFO    [scheduler]       Scheduled task triggered: daily_report at 09:18
+2026-02-17T09:24:00 DEBUG   [auth-service]    Token validated for user_id=203, expires_at=2026-02-18T09:24:00
+2026-02-17T09:31:55 ERROR   [payment-service] Payment gateway unreachable: HTTP 503 from https://pay.example.com
+2026-02-17T09:45:12 INFO    [etl-pipeline]    ETL batch completed: 1000 records processed, 2 errors
+2026-02-17T09:52:38 WARN    [api-gateway]     Rate limit approaching for client_id=55: 92/100 req/min
+2026-02-17T10:04:19 INFO    [report-engine]   Report generation started: raport_lunar_2026_01.pdf
+2026-02-17T10:11:03 DEBUG   [db-service]      Connection pool stats: 14/20 active, 6 idle
+2026-02-17T10:19:47 WARN    [db-service]      Slow query detected: 2340ms > threshold 1000ms on table angajati
+2026-02-17T10:27:33 INFO    [auth-service]    User login successful: user_id=045 from 10.0.0.5
+2026-02-17T10:35:08 INFO    [api-gateway]     Request processed: GET /api/angajati 200 in 156ms
+2026-02-17T10:42:55 DEBUG   [cache-service]   Cache eviction triggered: 240 entries removed (LRU policy)
+2026-02-17T10:51:14 ERROR   [etl-pipeline]    ETL pipeline crashed: NullPointerException in transform phase at record 512
+2026-02-17T10:58:29 INFO    [scheduler]       Health check passed: all 5 services responding
+2026-02-17T11:05:44 WARN    [report-engine]   SSL certificate expires in 14 days for *.analytics.internal
+2026-02-17T11:13:02 INFO    [db-service]      DB query executed in 12ms: SELECT AVG(salariu) FROM angajati
+2026-02-17T11:21:37 DEBUG   [api-gateway]     Request headers parsed: Content-Type=application/json, Accept=*/*
+2026-02-17T11:30:18 INFO    [etl-pipeline]    ETL batch completed: 850 records processed, 0 errors
+2026-02-17T11:38:55 WARN    [auth-service]    Failed login attempt for user admin from 10.0.2.99 (attempt 2/5)
+2026-02-17T11:47:22 INFO    [cache-service]   Cache hit ratio last hour: 94.3% (4712/4997 requests)
+2026-02-17T14:02:11 INFO    [api-gateway]     Request processed: DELETE /api/sessions/187 200 in 23ms
+2026-02-17T14:15:38 DEBUG   [db-service]      Transaction committed: UPDATE tranzactii SET status='procesat' WHERE id IN (1,2,3)
+2026-02-17T14:29:04 ERROR   [auth-service]    Authentication timeout for session_id=a3f7c2 after 900s of inactivity
+2026-02-17T14:44:17 INFO    [report-engine]   Report generation finished: raport_lunar_2026_01.pdf (2.3MB, 12 pages)
+2026-02-17T15:01:52 INFO    [scheduler]       Scheduled task triggered: cache_cleanup at 15:01
+2026-02-17T15:18:33 WARN    [payment-service] Disk usage above 80% on /var/data/payments (42GB/50GB)
+2026-02-17T15:35:09 DEBUG   [etl-pipeline]    Processing record ID 4823: validation passed
+2026-02-17T15:52:44 INFO    [db-service]      Backup completed: analytics_db_20260217.dump (1.2GB) to /var/backups/
+2026-02-17T16:10:17 INFO    [api-gateway]     Request processed: GET /api/produse 200 in 67ms
+2026-02-17T16:28:58 INFO    [auth-service]    Server shutdown initiated: graceful stop in 30s

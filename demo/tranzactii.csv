@@ -1,0 +1,16 @@
+id,client,categorie,suma,data,metoda_plata
+1,Alice,Mancare,145.50,2026-01-05,card
+2,Bob,Transport,89.00,2026-01-06,cash
+3,Carol,Electronice,650.00,2026-01-07,transfer
+4,Alice,Divertisment,230.00,2026-01-08,card
+5,Dan,Mancare,112.00,2026-01-09,cash
+6,Eva,Sanatate,320.00,2026-01-10,card
+7,Bob,Electronice,899.00,2026-01-11,transfer
+8,Carol,Mancare,67.50,2026-01-12,cash
+9,Dan,Divertisment,415.00,2026-01-13,card
+10,Alice,Transport,58.00,2026-01-14,cash
+11,Eva,Educatie,180.00,2026-01-15,transfer
+12,Dan,Sanatate,275.00,2026-01-16,card
+13,Bob,Mancare,93.00,2026-01-17,cash
+14,Carol,Transport,512.00,2026-01-18,card
+15,Eva,Divertisment,340.00,2026-01-19,transfer

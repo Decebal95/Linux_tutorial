@@ -1,0 +1,15 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+victor:x:1000:1000:Victor Aldica,,,:/home/victor:/bin/bash
+student1:x:1001:1001:Ion Popescu,,,:/home/student1:/bin/bash
+student2:x:1002:1001:Maria Stan,,,:/home/student2:/bin/bash
+student3:x:1003:1001:Andrei Radu,,,:/home/student3:/bin/bash
+svc_db:x:999:999:PostgreSQL Service:/var/lib/postgresql:/sbin/nologin
+svc_web:x:998:998:Nginx Web Service:/var/www/html:/sbin/nologin
+svc_monitor:x:997:997:Prometheus Agent:/opt/monitor:/sbin/nologin
+svc_backup:x:996:996:Backup Daemon:/var/backups:/bin/false
+svc_etl:x:995:995:ETL Pipeline Runner:/opt/etl:/sbin/nologin
+svc_cache:x:994:994:Redis Cache Service:/var/lib/redis:/sbin/nologin
+postfix:x:111:114:Postfix MTA:/var/spool/postfix:/bin/false

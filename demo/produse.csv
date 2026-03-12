@@ -1,0 +1,16 @@
+id,nume_produs,categorie,pret,furnizor,stoc
+1,Laptop Dell XPS 15,Electronice,4500.00,TechPro SRL,12
+2,Mouse Logitech MX3,Periferice,85.00,OfficeMax,120
+3,Monitor 4K LG 27",Electronice,2100.00,TechPro SRL,8
+4,Tastatura Mecanica Keychron,Periferice,320.00,KeyMaster,45
+5,SSD Samsung 1TB NVMe,Stocare,650.00,DataStore,33
+6,Router TP-Link AX3000,Retea,280.00,NetPro,67
+7,Webcam Logitech 4K,Periferice,420.00,OfficeMax,29
+8,Switch 24 porturi HP,Retea,1200.00,NetPro,15
+9,RAM Kingston 32GB DDR5,Componente,450.00,DataStore,55
+10,UPS APC 1500VA,Electronice,890.00,PowerPlus,22
+11,Cablu USB-C 2m Anker,Accesorii,35.00,OfficeMax,200
+12,Docking Station Dell,Periferice,750.00,TechPro SRL,18
+13,HDD Extern Seagate 2TB,Stocare,380.00,DataStore,41
+14,Imprimanta HP LaserJet,Periferice,1100.00,PrintMaster,9
+15,Card Reader USB-C,Accesorii,55.00,OfficeMax,88

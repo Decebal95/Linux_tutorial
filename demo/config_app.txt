@@ -1,0 +1,45 @@
+# ============================================================
+# Configuratie aplicatie Analytics Platform v2.0
+# Ultima modificare: 2026-02-17
+# ============================================================
+
+# --- Baza de date (PostgreSQL) ---
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=analytics_db
+DB_USER=admin
+# DB_PASSWORD=s3cr3t!  <-- nu se comite niciodata in Git
+DB_MAX_CONNECTIONS=20
+DB_TIMEOUT=30
+DB_SSL=true
+
+# --- API Settings ---
+API_HOST=0.0.0.0
+API_PORT=8080
+API_VERSION=v2
+API_RATE_LIMIT=100
+API_TIMEOUT=60
+API_DEBUG=false
+# API_SECRET_KEY=abc123  <-- gestionat prin variabile de mediu
+
+# --- ETL Pipeline ---
+ETL_BATCH_SIZE=1000
+ETL_WORKERS=4
+ETL_RETRY_MAX=3
+ETL_RETRY_DELAY=5
+ETL_LOG_LEVEL=INFO
+ETL_INPUT_DIR=/var/data/raw
+ETL_OUTPUT_DIR=/var/data/processed
+
+# --- Cache (Redis) ---
+CACHE_HOST=localhost
+CACHE_PORT=6379
+CACHE_TTL=3600
+CACHE_MAX_SIZE=512
+CACHE_EVICTION_POLICY=allkeys-lru
+
+# --- Monitorizare ---
+METRICS_PORT=9090
+METRICS_INTERVAL=15
+ALERT_EMAIL=ops@analytics.internal
+LOG_DIR=/var/log/analytics
